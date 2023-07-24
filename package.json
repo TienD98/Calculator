@@ -18,7 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "compile-sass": "sass ./public/style.scss ./public/style.css",
+    "compile-sass": "sass public/style.scss public/style.css",
     "predeploy": "npm run build",
     "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
